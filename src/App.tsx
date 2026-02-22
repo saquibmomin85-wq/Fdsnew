@@ -1,6 +1,7 @@
 import React from 'react';
 import { BookingForm } from './components/BookingForm';
 import { FeatureCard } from './components/FeatureCard';
+import { FleetAnimation } from './components/FleetAnimation';
 import { Truck, Clock, Shield, MapPin, Phone, Mail, Package, Bike, CreditCard } from 'lucide-react';
 import { motion } from 'motion/react';
 
@@ -69,6 +70,9 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* Fleet Animation */}
+      <FleetAnimation />
 
       {/* Booking Section */}
       <section id="book" className="py-20 px-4 sm:px-6 lg:px-8 -mt-10 relative z-10">
