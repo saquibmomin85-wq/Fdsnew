@@ -1,0 +1,5 @@
+{
+  "name": "FDS Delivery Services",
+  "description": "A delivery booking website for FDS Delivery Services with Supabase backend integration.",
+  "requestFramePermissions": []
+}
